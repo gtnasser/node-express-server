@@ -49,8 +49,13 @@ to create a package.json file like this:
   "license": "ISC"
 }
 ```
+3\. install dependencies
 
-3\. app
+```shell
+npm install express
+```
+
+4\. app
 
 create a new file server.js
 
@@ -77,7 +82,7 @@ http.createServer(function (req, res) {
 )
 ```
 
-4\. run
+5\. run
 
 ```sh
 node server
